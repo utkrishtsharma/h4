@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/global/homes/u/utkrisht/hw4/mmul-omp-harness-instructional/benchmark.cpp
+algorithm
+-
+chrono
+-
+iomanip
+-
+iostream
+-
+random
+-
+vector
+-
+cmath
+-
+cblas.h
+-
+string.h
+-
+unistd.h
+-
+omp.h
+-
+likwid-stuff.h
+/global/homes/u/utkrisht/hw4/mmul-omp-harness-instructional/likwid-stuff.h
+
+/global/homes/u/utkrisht/hw4/mmul-omp-harness-instructional/likwid-stuff.h
+likwid.h
+-
+

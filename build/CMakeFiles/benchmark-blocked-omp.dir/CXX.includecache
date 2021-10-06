@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/global/homes/u/utkrisht/hw4/mmul-omp-harness-instructional/dgemm-blocked-omp.cpp
+iostream
+-
+string.h
+-
+stdlib.h
+-
+omp.h
+-
+likwid-stuff.h
+/global/homes/u/utkrisht/hw4/mmul-omp-harness-instructional/likwid-stuff.h
+likwid-marker.h
+-
+
+/global/homes/u/utkrisht/hw4/mmul-omp-harness-instructional/likwid-stuff.h
+likwid.h
+-
+

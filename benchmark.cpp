@@ -100,7 +100,7 @@ int main(int argc, char** argv)
 
 #pragma omp critical
       {
-         std::cout << "Hello world, I'm thread " << thread_id << " out of " << nthreads << " total threads. " << std::endl; 
+      //fuhere----xxx   std::cout << "Hello world, I'm thread " << thread_id << " out of " << nthreads << " total threads. " << std::endl; 
       }
 
       // Each thread must add itself to the Marker API, therefore must be
